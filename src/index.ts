@@ -9,7 +9,7 @@ import router from './router';
       console: { type: 'console' },
     },
     categories: {
-      default: { level: 'debug', appenders: ['console'] },
+      default: { level: 'info', appenders: ['console'] },
     },
   });
   const log = getLogger('Main');
